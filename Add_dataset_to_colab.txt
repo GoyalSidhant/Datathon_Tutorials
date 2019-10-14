@@ -1,0 +1,21 @@
+#using dataset from kaggle Directly in google colab 
+
+IN COLAB PERFROM FOLLOWING STEPS
+
+ ! pip install -q kaggle
+ 
+ ! mkdir ~/.kaggle
+ 
+ ! cp kaggle.json ~/.kaggle/
+ 
+ ADD FILE TO YOUR COLAB NAMES kaglle.json HAVING YOUR API ID AND KEY 
+ 
+ ! chmod 600 ~/.kaggle/kaggle.json
+ 
+ DOWNLOAD THE DATASET
+ 
+ !kaggle datasets download -d **NAME_OF_DATASET
+ 
+ UNZIP THE FILE 
+ 
+ !unzip \*.zip
